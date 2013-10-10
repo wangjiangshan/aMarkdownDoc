@@ -1,0 +1,225 @@
+/*global*/
+html, body {
+    height: 100%;
+    background: #FFF;
+    color: #666;
+}
+
+body, * {
+    border-radius: 0 !important;
+    font-family: Menlo, Consolas, 'Courier New', Courier, monospace;
+    box-sizing: border-box !important;
+}
+
+.doctitle{font-weight: bold}
+
+a {
+    cursor: pointer !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/*common*/
+.icon-stack {
+    font-size: 12px;
+}
+
+.navbar-brand {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dark {
+    color: #333 !important
+}
+
+.white {
+    color: #fff !important
+}
+
+.red {
+    color: #dd5a43 !important
+}
+
+.light-red {
+    color: #f77 !important
+}
+
+.blue {
+    color: #478fca !important
+}
+
+.light-blue {
+    color: #93cbf9 !important
+}
+
+.green {
+    color: #69aa46 !important
+}
+
+.light-green {
+    color: #b0d877 !important
+}
+
+.orange {
+    color: #ff892a !important
+}
+
+.light-orange {
+    color: #fcac6f !important
+}
+
+.orange2 {
+    color: #feb902 !important
+}
+
+.purple {
+    color: #a069c3 !important
+}
+
+.pink {
+    color: #c6699f !important
+}
+
+.pink2 {
+    color: #d6487e !important
+}
+
+.brown {
+    color: #a52a2a !important
+}
+
+.grey {
+    color: #777 !important
+}
+
+/*container*/
+.markdown-body {
+    margin-left: 300px;
+    margin-top: 80px;
+    -webkit-transition: all -3s;
+}
+
+/*title bar*/
+.navbar-default {
+    background: rgba(255, 255, 255, 0.9);
+    line-height: 80px;
+    padding-top: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.navbar-header {
+}
+
+.navbar-inverse {
+    background-color: #617382;
+    border-color: #5C6E7D;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+/*edit body*/
+#container {
+    min-height: 300px;
+    margin: auto;
+}
+
+/*sidebar*/
+#sidebar {
+    width: 270px;
+    position: fixed;
+    top: 80px;
+}
+
+#sidebar h1{
+    display:none;
+}
+
+.bs-sidenav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 0 #FFF;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+#sidebar .nav > li > a {
+    display: block;
+    color: #716B7A;
+    padding: 5px 20px;
+}
+
+#sidebar .nav .nav {
+    margin-bottom: 8px;
+}
+
+#sidebar .nav > .active > a, #sidebar .nav > .active:hover > a, #sidebar .nav > .active:focus > a {
+    color: #563D7C;
+    background-color: rgba(0, 0, 0, 0);
+    border-right: 1px solid #563D7C;
+}
+
+#sidebar .nav .nav > li > a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+}
+
+#sidebar .nav > li > a:hover, #sidebar .nav > li > a:focus {
+    text-decoration: none;
+    border-right: 1px solid #DBD8E0;
+}
+
+#sidebar .nav > .active > a, #sidebar .nav > .active:hover > a, #sidebar .nav > .active:focus > a {
+    color: #563D7C;
+    background-color: rgba(0, 0, 0, 0);
+    border-right: 1px solid #563D7C;
+}
+
+footer {
+    width: 100%;
+    background: #F9F9F9;
+    border-top: 1px solid #ECECEC;
+    padding: 40px 0px 20px;
+    text-align: center;
+}
+
+/*misc*/
+.ng-hide {
+    display: block !important;
+    top: -55px;
+}
+
+.toc{display: none}
+.toclist{
+    width: 400px;
+}
+.toclist li{
+    line-height:1;
+}
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #428BCA;
+}
+.dropdown-menu li a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown-menu ul li a {
+    padding: 3px 10px;
+}
